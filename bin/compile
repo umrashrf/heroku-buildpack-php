@@ -302,5 +302,5 @@ export COMPOSER="$COMPOSER_bak"
 unset COMPOSER_bak
 
 status "Installing mail pears"
-php/bin/pear install Mail
-php/bin/pear install Net_SMTP
+pear install Mail
+pear install Net_SMTP
